@@ -2,7 +2,6 @@ import { FaRegPlayCircle, FaStar } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { ContainerInfo, MiniAvatar, ButtonBuy } from "../styled.components";
-import BlackWidow from "../../assets/black-widow.png";
 import { Context } from "../../context/AppContext";
 
 export const Info = () => {
@@ -49,7 +48,7 @@ export const Info = () => {
           <div className="description-title">Cast</div>
           <div className="images">
             {[1, 2, 3, 4].map((item) => (
-              <MiniAvatar key={item} src={BlackWidow} />
+              <MiniAvatar key={item} src={"../../assets/black-widow.png"} />
             ))}
           </div>
         </section>

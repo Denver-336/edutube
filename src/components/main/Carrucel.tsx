@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import BlackWidow from "../../assets/black-widow.png";
 import { Movie, Item } from "../../interfaces/interfaces";
 import { Avatar, AvatarContainer, Container, Degrade } from "../styled.components";
 
@@ -31,7 +30,7 @@ export const Carrucel = (): JSX.Element => {
         <>
           <Container height={50} src={data[1].thumbnail} />
           <AvatarContainer height={50}>
-            <Avatar height={50} src={BlackWidow} />
+            <Avatar height={50} src={"../../assets/black-widow.png"} />
           </AvatarContainer>
           <Degrade height={50} />
         </>
