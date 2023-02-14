@@ -3,7 +3,6 @@ import { Detail } from "./components/detail";
 import { Main } from "./components/main";
 import { AppProvider } from "./context/AppProvider";
 function App() {
-  const url = import.meta.env.VITE_BASE_URL;
 
   return (
     <>

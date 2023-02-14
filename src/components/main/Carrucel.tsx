@@ -18,6 +18,7 @@ export const Carrucel = (): JSX.Element => {
       return obj;
     });
     setData(aItems);
+    console.log(response)
   };
 
   useEffect(() => {
