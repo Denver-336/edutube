@@ -9,11 +9,10 @@ export const Flex = styled.div<Props>`
 `;
 
 export const Container = styled.div<Props>`
-  margin-top: 50px;
-  height: calc(${props => props.height}vh - 50px);
-  width: 90%;
+  height: ${props => props.height}vh;
+  width: 100%;
   border-radius: 10px 10px 0 0;
-  background: url(${props => props.src}) no-repeat;
+  background: url(${props => props.src});
   background-size: contain;
   opacity: 0.6;
   background-position: center;

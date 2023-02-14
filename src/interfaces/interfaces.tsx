@@ -7,6 +7,7 @@ export interface Movie {
 export interface Item {
   name: string;
   description: string;
+  id: string
   thumbnail: {
     path: string;
     extension: string;
