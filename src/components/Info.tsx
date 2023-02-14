@@ -1,7 +1,18 @@
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { getData } from "../utils/fechData";
 
 
 export const Info = () => {
-  
+  const [data, setData] = useState([]);
+  const parametro = useParams()
+
+  useEffect(() => {
+    const fech = getData();
+    fech.then((value: any) => {
+      setData(value);
+    });
+  }, []);
 
   return (
     <>

@@ -108,3 +108,7 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
 }
+
+.cont-carrucel {
+  width: 100vw;
+}
