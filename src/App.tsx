@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Main } from "./components/main";
-import { Carrucel } from "./components/Carrucel";
-import { Inicio } from "./components/main/Inicio";
+import { Main } from "./components/pages/main";
+import { Carrucel } from "./components/pages/Carrucel";
+import { Inicio } from "./components/pages/main/Inicio";
 import { AppProvider } from "./context/AppProvider";
-import { Info } from "./components/Info";
+import { Info } from "./components/pages/Info";
 function App() {
 
   return (

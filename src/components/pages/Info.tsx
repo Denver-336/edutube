@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getData } from "../utils/fechData";
+import { getData } from "../../utils/fechData";
 
 
 export const Info = () => {
