@@ -30,7 +30,7 @@ export const Carrucel = (): JSX.Element => {
             className="d-block img-car" alt={value.name} />
           <div className="carousel-caption d-none d-md-block">
             <h5>{value.name}</h5>
-            <Link type="button" to={`/informacion/:${value.id}`} className="btn btn-danger" >Ver detalles</Link>
+            <Link type="button" to={`/informacion/${value.id}`} className="btn btn-danger" >Ver detalles</Link>
           </div>
         </div>
       ))}

@@ -3,6 +3,6 @@ export const getData = async () => {
   const items = await fetch(url);
   const response: any = await items.json();
   const data = response.data.results
-  console.log(response)
+  // console.log(response)
   return data
 };

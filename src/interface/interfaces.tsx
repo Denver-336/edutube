@@ -12,6 +12,27 @@ export interface Item {
     path: string;
     extension: string;
   }
+  comics: {
+    items: [
+      {
+        name: string
+      }
+    ]
+  }
+  series: {
+    items: [
+      {
+        name: string
+      }
+    ]
+  }
+  stories: {
+    items: [
+      {
+        name: string
+      }
+    ]
+  }
 }
 
 // export interface Props {
